@@ -1,0 +1,47 @@
+.search {
+  background-color: #fff;
+  padding: 1rem 2.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading > h1 {
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+.searchbox {
+  height: 50px;
+}
+.searchbox input {
+  height: 47px;
+  width: 450px;
+  padding-left: 25px;
+  font-size: 14px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.searchbox input:focus {
+  border: 2px solid #0076d7;
+}
+.search__icon {
+  background: #fe610c;
+  height: 35px;
+  width: 35px;
+  display: grid;
+  place-items: center;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  bottom: 2.6rem;
+  left: 25.3rem;
+}
+.download_btn > button {
+  border: 1px solid #000;
+  padding: 5px 20px;
+  background-color: #fff;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+}

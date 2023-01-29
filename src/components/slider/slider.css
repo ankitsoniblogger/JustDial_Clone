@@ -1,0 +1,12 @@
+.slider {
+  padding: 0 2.5rem;
+  height: 480px;
+}
+.slider_img {
+  padding: 1rem;
+  background: url("./s1.avif");
+  /* background-position: center; */
+  height: 480px;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
